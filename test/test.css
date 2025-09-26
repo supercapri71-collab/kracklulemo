@@ -1,0 +1,17 @@
+body{
+    background-image: url(equipo.jpeg);
+    background-size: cover;
+    background-color: blue;
+   
+}
+.botones{
+    display: flex;
+    flex:5;
+    flex-direction: column;
+    padding: 20px;
+    
+    justify-content: center;
+    align-items: center;
+    color: white
+    
+}
