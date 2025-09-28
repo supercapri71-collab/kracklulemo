@@ -1,0 +1,58 @@
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="utilitarios.js"></script>
+    <script src="serviciosPlacas.js"></script>
+    <script src="placas.js"></script>
+    <link rel="stylesheet" href="placas.css" />
+</head>
+
+<body>
+
+    <div class="principal">
+        <div class="logoEscuela">
+            <img src="James01.png" width="400px" height="300px">
+        </div>
+
+        <div class="contenedorInfo">
+            <h1 class="titulo"> SE VALIDA PLACAS DEL ECUADOR </h1>
+            <div class="ingresoDatos">
+                <h3 class="tituloCampo">INGRESE PLACA DEL VEHICULO</h3>
+                <input class="cajaTexto" type="text" id="txtProducto" />
+                <h3 id="error1"></h3>
+            </div>
+        </div>
+
+        <div class="contenidoResultado">
+            <div class="tituloSubtotal">
+                <h3 class="subtitulo">Provincia: </h3>
+                <h2 class="subtitulo" id="infoTotal"> </h2>
+            </div>
+            <div class="tituloSubtotal1">
+                <h3 class="subtitulo">Tipo de Vehiculo: </h3>
+                <h2 class="subtitulo" id="infoTotal1"></h2>
+            </div>
+            <div class="tituloSubtotal1">
+                <h3 class="subtitulo">Pico Y Placa :</h3>
+                <h2 class="subtitulo" id="infoTotal2"></h2>
+            </div>
+            <div class="tituloSubtotal1">
+                <h3 class="subtitulo">Observaciones : </h3>
+                <h2 class="subtitulo" id="infoTotal3"></h2>
+                <div class="contenedorBoton">
+
+                </div>
+            </div>
+            <input class="estiloBoton" type="button" value="VALIDAR PLACA" onclick="calcularValorTotal()" />
+        </div>
+
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>
